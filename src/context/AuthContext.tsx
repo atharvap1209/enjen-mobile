@@ -40,7 +40,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         throw new Error('Invalid OTP');
       }
 
-      // Set user on successful login
+      // Set on successful login
       setUser({
         organisationId: args.organisationId,
         phoneNumber: args.phoneNumber,
