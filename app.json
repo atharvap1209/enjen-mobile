@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "enjen-mobile",
+    "name": "Enjen Mobile",
     "slug": "enjen-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.enjen.mobile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "package": "com.enjen.mobile",
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
